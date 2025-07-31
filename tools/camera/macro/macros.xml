@@ -8,6 +8,11 @@
             <requirement type="package" version="1.1_4">r-batch</requirement>
             <requirement type="package" version="1.3.23">graphicsmagick</requirement>
         </requirements>
+        
+        <required_files>
+            <include path="CAMERA_annotateDiffreport.r" />
+            <include path="lib.r" />
+        </required_files>
     </xml>
     <xml name="stdio">
         <stdio>
